@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Check condition with function</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+    <button type="button" onclick="checkCondition()">Click to check</button>
+    <script>
+        function checkCondition() {
+            var i = 10;
+            var j = 9;
+            if (i == j) {
+                document.getElementById("demo").innerHTML = "Value match";
+            } else {
+                document.getElementById("demo").innerHTML = "Value not match";
+            }
+        }
+    </script>
+    <!-- <h1>value is equal</h1>
+    <p id="demo"></p>
+    <button type="button" onclick="checkCondition()">Click to check</button>
+    <script>
+        function checkCondition() {
+            var i = 10;
+            var j = 10;
+            if (i < j) {
+                document.getElementById("demo").innerHTML = "I is smaller";
+            } else if (i > j) {
+                document.getElementById("demo").innerHTML = "I is greater";
+            } else {
+                document.getElementById("demo").innerHTML = "Value is equal";
+            }
+        }
+    </script> -->
+</body>
+
+</html>

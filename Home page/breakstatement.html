@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>break Statement</title>
+</head>
+
+<body>
+    <p id="p1"></p>
+
+    <script>
+        var txt = "";
+        var i;
+        for (i = 0; i < 10; i++) {
+            if (i === 5) {
+                break;
+            }
+            txt += "The number is " + i + "<br>";
+        }
+        document.getElementById("p1").innerHTML = txt;
+    </script>
+</body>
+
+</html>

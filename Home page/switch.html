@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Switch</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+    <button type="button" onclick="checkCondition()">Click to check</button>
+    <script>
+        function checkCondition() {
+            var i = 10;
+            switch (i) {
+                case 5:
+                    document.getElementById('demo').innerHTML = "Value is 5";
+                    break;
+                case 10:
+                    document.getElementById('demo').innerHTML = "Value is 10";
+                    break;
+                case 15:
+                    document.getElementById('demo').innerHTML = "Value is 15";
+                    break;
+                case 20:
+                    document.getElementById('demo').innerHTML = "Value is 20";
+                    break;
+                default:
+                    document.getElementById('demo').innerHTML = "No value match";
+            }
+        }
+    </script>
+
+</body>
+
+</html>

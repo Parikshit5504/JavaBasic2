@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>for loop</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+
+    <script>
+        var lang = ["HTML", "CSS", "Bootstrap", "PHP", "Java", "Android",
+
+            "Angular"
+        ];
+
+        var txt = "";
+        var i;
+        for (i = 0; i < lang.length; i++) {
+            txt += lang[i] + "<br>";
+        }
+        document.getElementById("demo").innerHTML = txt;
+    </script>
+</body>
+
+</html>
